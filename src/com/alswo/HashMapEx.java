@@ -24,6 +24,7 @@ public class HashMapEx {
 		System.out.println(h1.remove("cccc", "3333"));	// 일치하는 key, value 기준 데이터를 삭제
 		System.out.println(h1.replace("aaaa", "2222"));	// key와 일치하는 value 값을 변경
 		System.out.println(h1.replace("aaaa", "2222", "1111"));	// key와 value의 값이 일치하는 데이터의 value를 newValue로 값을 변경
+		System.out.println(h1.replace("bbbb", "2222", "3333"));
 		
 		System.out.println(h1);
 	}
