@@ -13,6 +13,7 @@ public class HashMapEx {
 		h1.putIfAbsent("aaaa", "0000");		// 기존 데이터에 key가 없으면 key와 value를 저장
 		h1.putIfAbsent("dddd", "4444");
 		h2.putAll(h1);
+		
 		System.out.println("h1 : " + h1);
 		System.out.println("h2 : " + h2);
 		
@@ -26,5 +27,4 @@ public class HashMapEx {
 		
 		System.out.println(h1);
 	}
-
 }
