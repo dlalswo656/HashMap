@@ -45,6 +45,6 @@ public class HashMapEx {
 		h1.clear();
 		
 		System.out.println(h1);
-		
+	
 	}
 }

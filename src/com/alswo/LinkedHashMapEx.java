@@ -48,7 +48,6 @@ public class LinkedHashMapEx {
         for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
             String key = entry.getKey();
             int value = entry.getValue();
-            
             System.out.print(key + value + ",");
         }
     }
